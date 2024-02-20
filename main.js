@@ -20,5 +20,9 @@
     fetchAPOD(selectedDate);
   }
 
+  function changeofdate() {
+    const changeDate = document.getElementById("submit-button").preventDefault();
+  }
+  
   // Initial fetch for today's APOD
-  fetchAPOD("2024-02-16");
+  fetchAPOD("2024-02-20");
