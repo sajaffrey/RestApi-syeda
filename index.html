@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
-<link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
-<body>
-    
 
-    <script src="main.js"></script>
+<body>
+  <!--Navigation bar-->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="/assets/images/download.png" alt="NASA Logo">
+      </div>
+      <h1>NASA Picture Of The Day</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Missions</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--main content for apod-->
+  <!-- apod image -->
+  <div id="apod-container">
+    <img id="apod-image" src="" alt="Astronomy Picture of the Day">
+    <p id="apod-description"></p>
+  </div>
+  
+  <!-- apod date change -->
+  <div id="date-input-container">
+    <label for="date-input" id="select">Select Date:</label>
+    <input type="date" id="date-input">
+    <button id="submit-button">Submit</button>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2023 NASA. All rights reserved.</p>
+  </footer>
+  <script src="main.js"></script>
 </body>
+
 </html>
