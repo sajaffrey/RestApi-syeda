@@ -1,92 +1,103 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: darkgray;
-}
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/images/Hubble_ultra_deep_field.jpg);
+  }
 
-/* Header styles */
-header {
-  background-color: #000;
-  color: #fff;
-  padding: 20px 0;
-}
+  /* Header styles */
+  header {
+    background-color: #3c3a3a;
+    color: #000000;
+    padding: 20px 0;
+  }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.logo img {
-  width: 60px;
-  height: 50px;
-}
+  .logo img {
+    width: 60px;
+    height: 50px;
+  }
 
-nav ul {
-  list-style-type: none;
-}
+  nav ul {
+    list-style-type: none;
+  }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
 
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
+  nav ul li a {
+    text-decoration: none;
+    color: #e6e2e2;
+    font-weight: bold;
+  }
 
-/* h1 styling */
-h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #b4aeae;
-  text-align: center;
-  margin-top: 15px;
-}
+  /* Header styles end*/
 
+  /* h1 styling */
+  h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #b4aeae;
+    text-align: center;
+    margin-top: 15px;
+  }
 
-/* apod image style */
-#apod-image {
-  width: 30%;
-  height: 10%;
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 100px;
-}
-#date-input-container{
-  display: flex;
-}
-#apod-container{
-  display: flex; 
-}
-/* apod description style */
-#apod-description  {
-  width: 30rem;
-  height: 100px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  padding: 200px 130px;
-  text-decoration: #000;
-  text-align: justify;
-}
-#select{
-  font-weight: bold;
-  margin-top: 30px;
-  margin-left: 100px;
-}
-#date-input{
-  margin-top: 20px;
-}
-#submit-button{
-  display: inline-block;
+  /* apod image style */
+  #apod-image {
+    width: 30%;
+    height: 10%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  #date-input-container {
+    display: flex;
+  }
+
+  #apod-container {
+    display: flex;
+  }
+
+  /* apod description style */
+  #apod-description {
+    width: 30rem;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 200px 130px;
+    color: #fff;
+    text-decoration: #ffffff;
+    text-align: justify;
+  }
+
+  /* submit button style */
+  #select {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+  /* date input style */
+  #date-input {
+    margin-top: 20px;
+  }
+
+  #submit-button {
+    display: inline-block;
     padding: 10px 20px;
     background-color: rgb(99, 99, 91);
     color: #000;
@@ -94,11 +105,13 @@ h1 {
     font-weight: bold;
     border-radius: 5px;
     margin-top: 20px;
-}
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: rgb(33, 32, 31);
-  color: white;
-  margin-top: 80px;
-}
+  }
+
+  /* footer style */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(33, 32, 31);
+    color: white;
+    margin-top: 80px;
+  }
